@@ -1,3 +1,5 @@
+package srp;
+
 // Handles persistence logic
 interface InvoicePersistence {
 	

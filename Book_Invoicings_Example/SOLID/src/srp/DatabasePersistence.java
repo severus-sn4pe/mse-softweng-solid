@@ -1,3 +1,5 @@
+package srp;
+
 class DatabasePersistence implements InvoicePersistence {
 
 	@Override

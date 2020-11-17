@@ -1,3 +1,5 @@
+package srp;
+
 // Handles printing logic
 class InvoicePrinter {
     private Invoice invoice;

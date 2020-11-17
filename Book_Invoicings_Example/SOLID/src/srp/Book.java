@@ -1,3 +1,5 @@
+package srp;
+
 // DATA CLASS
 // Defining Book class to use for the invoicings
 
