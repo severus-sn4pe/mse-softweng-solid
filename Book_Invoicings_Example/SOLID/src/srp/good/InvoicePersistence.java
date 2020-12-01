@@ -1,8 +1,10 @@
 package srp.good;
 
-// Handles persistence logic
-interface InvoicePersistence {
-	
-    public void save(Invoice invoice);  // empty method to override
+class InvoicePersistence {
+	public void save(Invoice invoice) {
+		// Implement File save logic
+		System.out.print(invoice.book.name + " saved in File.");
+		System.out.println("\n");
+	}
     
 }

@@ -18,14 +18,8 @@ class Main{
         invoice_printer_one.printInvoice();
         invoice_printer_two.printInvoice();
 
-        DatabasePersistence databasePersistence = new DatabasePersistence();
-        FilePersistence filePersistence = new FilePersistence();
-
-        databasePersistence.save(invoice_one);
-        databasePersistence.save(invoice_two);
-        filePersistence.save(invoice_two);
-        filePersistence.save(invoice_three);
-        
-
+        InvoicePersistence persistance = new InvoicePersistence();
+        persistance.save(invoice_one);
+        persistance.save(invoice_two);
     }
 }
