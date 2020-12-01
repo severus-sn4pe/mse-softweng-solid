@@ -1,4 +1,4 @@
-package srp;
+package srp.good;
 
 // DATA CLASS
 // Defining Book class to use for the invoicings

@@ -1,4 +1,4 @@
-package srp;
+package srp.good;
 
 // Handles persistence logic
 interface InvoicePersistence {

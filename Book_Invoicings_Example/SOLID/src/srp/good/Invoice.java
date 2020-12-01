@@ -1,4 +1,4 @@
-package srp;
+package srp.good;
 
 // handles calculation business logic
 // Single Responsibility Principle - Invoice class handles only the invoicing calculation business logic
@@ -28,22 +28,5 @@ public class Invoice {
 
 		return priceWithTaxes;
 	}
-
-    /*
-    // method that should print the invoicing
-    // SHOULD BE REMOVED IN SEPERATE CLASS
-	public void printInvoice() {
-            System.out.println(quantity + "x " + book.name + " " +          book.price + "$");
-            System.out.println("Discount Rate: " + discountRate);
-            System.out.println("Tax Rate: " + taxRate);
-            System.out.println("Total: " + total);
-	}
-
-    // method, responsible for writing the invoicing into a file
-    // SHOULD BE REMOVED IN SEPERATE CLASS
-        public void saveToFile(String filename) {
-	// Creates a file with given name and writes the invoice
-    }
-    */
 
 }

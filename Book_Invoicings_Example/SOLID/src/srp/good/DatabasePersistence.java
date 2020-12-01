@@ -1,4 +1,4 @@
-package srp;
+package srp.good;
 
 class DatabasePersistence implements InvoicePersistence {
 
