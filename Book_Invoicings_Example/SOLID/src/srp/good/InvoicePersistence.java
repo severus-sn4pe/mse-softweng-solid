@@ -3,7 +3,6 @@ package srp.good;
 class InvoicePersistence {
   public void save(Invoice invoice) {
     // Implement File save logic
-    System.out.print(invoice.book.name + " saved into File.");
-    System.out.println("\n");
+    System.out.println(invoice.book.name + " saved into File.");
   }
 }

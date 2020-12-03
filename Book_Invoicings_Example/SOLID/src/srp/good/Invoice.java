@@ -2,9 +2,6 @@ package srp.good;
 
 import srp.Book;
 
-// handles calculation business logic
-// Single Responsibility Principle - Invoice class handles only the invoicing calculation business logic
-
 public class Invoice {
   // for easier understandability no getter and setter
   public Book book;

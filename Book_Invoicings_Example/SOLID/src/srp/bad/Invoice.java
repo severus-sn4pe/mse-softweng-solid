@@ -38,13 +38,6 @@ public class Invoice {
 
   // method, responsible for writing the invoicing into a file
   public void saveToFile() {
-    System.out.print(book.name + " saved into File.");
-    System.out.println("\n");
-  }
-
-  // method, responsible for saving the invoicing into the DB
-  public void saveToDatabase(){
-    System.out.println(book.name + " saved into DB.");
-    System.out.println("\n");
+    System.out.println(book.name + " saved into File.");
   }
 }
