@@ -1,5 +1,7 @@
 package srp.good;
 
+import srp.Book;
+
 class Main{
   static Book book_one = new Book("Lord of the Flies", "William Golding", 1954, 15.00f, "1");
   static Book book_two = new Book("Moonfleet", "J. Meade Falkner", 1898, 7.50f, "2");

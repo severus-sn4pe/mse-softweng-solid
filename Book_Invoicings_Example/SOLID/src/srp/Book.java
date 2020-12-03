@@ -1,11 +1,11 @@
-package srp.good;
+package srp;
 
-class Book {
-  String name;
-  String authorName;
-  int year;
-  float price;
-  String isbn;
+public class Book {
+  public String name;
+  public String authorName;
+  public int year;
+  public float price;
+  public String isbn;
 
   public Book(String name, String authorName, int year, float price, String isbn) {
     this.name = name;
