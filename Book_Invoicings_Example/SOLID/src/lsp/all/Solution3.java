@@ -1,16 +1,13 @@
 package lsp.all;
 
 public abstract class Book implements IProduct {
-	public String name;
-	public String author;
+	public String name, author;
 
 	@Override
 	public String getDetails() {
-		return name + " "
-		+ "by " + author + ". "
-		+ getSpecificDetails();
+		return name + " " + "by " + author + ". "
+			+ getSpecificDetails();
 	}
-
 	public abstract String getSpecificDetails();
 }
 
@@ -29,7 +26,6 @@ public class EBook extends Book { //Maybe add another class BookWithPages
 	
 	@Override
 	public String getSpecificDetails() {
-		return numberOfPages + " pages. "
-		 + "Download size: " + fileSizeInMB + "MB.";
+		return numberOfPages + " pages. " + "Download size: " + fileSizeInMB + "MB.";
 	}
 }

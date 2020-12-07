@@ -1,29 +1,23 @@
 package lsp.all;
 
 public class AudioBook implements IProduct {
-    public String name;
-	public String author;
+    public String name, author;
     public Duration duration;
 
 	@Override
 	public String getDetails() {
-		return name + " "
-		+ "by " + author + ". "
-		+ "Duration: " + duration.toString();
+		return name + " " + "by " + author + ". "
+			+ "Duration: " + duration.toString();
 	}
 }
 
 public class EBook implements IProduct {
-	public String name;
-	public String author;
+	public String name, author, fileSizeInMB;
 	public int numberOfPages;
-	public String fileSizeInMB;
 	
 	@Override
 	public String getDetails() {
-		return name + " " 
-		+ "by " + author + ". "
-		+ numberOfPages + " pages. "
-		+ "Download size: " + fileSizeInMB + "MB.";
+		return name + " " + "by " + author + ". "
+			+ numberOfPages + " pages. " + "Download size: " + fileSizeInMB + "MB.";
 	}
 }
